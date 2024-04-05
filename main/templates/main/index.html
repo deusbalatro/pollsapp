@@ -1,0 +1,8 @@
+<h1><a href="{% url 'polls:index' %}">Click here to directing polls app</a></h1>
+
+{% if examplo %}
+    <p>Latest published question: <a href="{% url 'polls:detail' examplo.id %}">{{ examplo.question_text }}</a></p>
+{% else %}
+    <p>no question</p>
+{% endif %}
+
