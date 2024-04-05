@@ -2,7 +2,7 @@ Hi!
 
 # Django Polls App
 
-This is a simple Django application for conducting polls. It was created based on the Django tutorial found in the official documentation.
+This is a simple Django application for conducting polls. It was created based on the [Django tutorial found in the official documentation](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
 
 ## Features
 
